@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body onload="slider()">
+  <header class="container" id="container">
+    <div class="slider">
+      <img src="images/image5.png" alt="" id="slideImg">
+    </div>
+    <div class="overlay">
+      <div class="navbar">
+        <div class="logo">
+          <div class="logoId fa-solid fa-dumbbell"></div>
+          <h6 class="logoName">Fitness Club</h6>
+        </div>
+        <div class="menu-icons">
+          <ul>
+            <li><a href="#container">Home</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#plansContainer">Plans</a></li>
+            <li><a href="#whyus">Why Us</a></li>
+            <li><a href="#join-us" style="color:#f1b32c">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Unleash your inner athlete.</h1>
+        <h3>Sweat, smile, repeat</h3>
+
+        <div>
+          <button type="button">Learn More</button>
+          <button type="button" id="btn-2">Join Us</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="Programs" id="programs">
+      <div class='programs-header'>
+        <span class='stroke-text'>Explore our</span>
+        <span>Programs</span>
+        <span class='stroke-text'>to shape you</span>
+      </div>
+      <div class="program-category">
+        <div class="category">
+          <div class="fa-solid fa-dumbbell"></div>
+          <span>Strength Training</span>
+          <span>In this program, you are trained to improve your strength through many exercises.</span>
+          <div class="join-now">
+            <span>Join Now</span>
+          </div>
+        </div>
+        <div class="category">
+          <div class="fa-solid fa-person-running"></div>
+          <span>Cardio Training</span>
+          <span>In this program, you are trained to do sequential moves in range of 20 until 30 minutes.</span>
+          <div class="join-now">
+            <span>Join Now</span>
+          </div>
+        </div>
+        <div class="category">
+          <div class="fa-solid fa-fire"></div>
+          <span>Fat Burning</span>
+          <span>This program is suitable for you who wants to get rid of your fat and lose their weight.</span>
+          <div class="join-now">
+            <span>Join Now</span>
+          </div>
+        </div>
+        <div class="category">
+          <div class="fa-solid fa-heart-pulse"></div>
+          <span>Health Fitness</span>
+          <span>This programs is designed for those who exercises only for their body fitness not body building.</span>
+          <div class="join-now">
+            <span>Join Now</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="plans-container" id="plansContainer">
+      <div class='plans-header'>
+        <span class='stroke-text'>Ready to start</span>
+        <span>your Journey</span>
+        <span class='stroke-text'>now with us</span>
+      </div>
+      <div class="price-grid">
+        <div class="price-card">
+          <div class="price-card-content">
+            <h4>BASIC PLAN</h4>
+            <h3>$16</h3>
+            <p>
+              <img src="images/tick.png" alt="">
+              2 hours of excercises
+            </p>
+            <p>
+              <img src="images/tick.png" alt="">
+              Free consultaion to coaches
+            </p>
+            <p>
+              <img src="images/tick.png" alt="">
+              Access to The Community
+            </p>
+          </div>
+          <button class="btn price-btn">Join Now</button>
+        </div>
+        <div class="price-card">
+          <div class="price-card-content">
+            <h4>PREMIUM PLAN</h4>
+            <h3>$25</h3>
+            <p>
+              <img src="images/tick.png" alt="">
+              5 hour of excercises
+            </p>
+            <p>
+              <img src="images/tick.png" alt="">
+              Free consultaion of Coaches
+            </p>
+            <p>
+              <img src="images/tick.png" alt="">
+              Access to minibar
+            </p>
+          </div>
+          <button class="btn price-btn">Join Now</button>
+        </div>
+        <div class="price-card">
+          <div class="price-card-content">
+            <h4>PRO PREMIUM PLAN</h4>
+            <h3>$45</h3>
+            <p>
+              <img src="images/tick.png" alt="">
+              8 hours of excercises
+            </p>
+            <p>
+              <img src="images/tick.png" alt="">
+              Consultation of Private Coach
+            </p>
+            <p>
+              <img src="images/tick.png" alt="">
+              Free Fitness Merchandises
+            </p>
+            <p>
+              <img src="images/tick.png" alt="">
+              Personal Training
+            </p>
+          </div>
+          <button class="btn price-btn">Join Now</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="reasons" id="whyus">
+      <div class="left-r">
+        <img src="images/image1.1.png" alt="" />
+        <img src="images/image2.2.png" alt="" />
+        <img src="images/image3.3.png" alt="" />
+        <img src="images/image4.4.png" alt="" />
+      </div>
+      <div class="right-r">
+        <span>some reasons</span>
+        <div>
+          <span class="stroke-text">Why </span>
+          <span>choose us?</span>
+        </div>
+        <div class='details-r'>
+          <div>
+            <img src="images/whiteTick.png" alt="" />
+            <span> OVER 140+ EXPERT COACHS</span>
+          </div>
+          <div>
+            <img src="images/whiteTick.png" alt="" />
+            <span> TRAIN SMARTER AND FASTER THAN BEFORE</span>
+          </div>
+          <div>
+            <img src="images/whiteTick.png" alt="" />
+            <span> 1 FREE PROGRAM FOR NEW MEMBER</span>
+          </div>
+          <div>
+            <img src="images/whiteTick.png" alt="" />
+            <span> RELIABLE PARTNERS</span>
+          </div>
+        </div>
+        <div class="figures">
+          <div class="fig">
+            <span id="coaches-counter">+140</span>
+            <span class="fig_details">Expert coaches</span>
+          </div>
+          <div class="fig">
+            <span id="members-counter">+978</span>
+            <span class="fig_details">members joined</span>
+          </div>
+          <div class="fig">
+            <span id="programs-counter">+50</span>
+            <span class="fig_details">fitness programs</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="clients" id="client">
+      <div class="left-t">
+        <span class="stroke-text orange">What they</span>
+        <span>say about us</span>
+        <span id="clientContent" style="opacity: 1;">
+          <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sapiente reiciendis quia autem eum
+            nesciunt.
+          </span>
+          <br>
+          - Hello World, Client
+        </span>
+      </div>
+      <div class="right-t">
+        <div></div>
+        <div></div>
+        <img class="clientimg in-view" src="images/t-image1.png" alt="">
+        <div class="arrows">
+          <img onclick="changeImage(-1)" src="images/leftArrow.png" alt="">
+          <img onclick="changeImage(1)" src="images/rightArrow.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="Join" id="join-us">
+      <div class="left-j">
+        <hr />
+        <div>
+          <span class='stroke-text'>READY TO</span>
+          <span> LEVEL UP</span>
+        </div>
+        <div>
+          <span>YOUR BODY</span>
+          <span class='stroke-text'> WITH US?</span>
+        </div>
+      </div>
+      <div class="right-j">
+        <form class="email-container">
+          <input type="email" name="user_email" placeholder='Enter your Email address' />
+          <button class='btn btn-j'>Join Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-container">
+    <div class="footer-col">
+      <div class="logo" id="footer-logo">
+        <div class="logoId fa-solid fa-dumbbell"></div>
+        <h6 class="logoName">Fitness Club</h6>
+      </div>
+      <p>
+        Take the first step towards a healthier, stronger you with our
+        unbeatable pricing plans. Let's sweat, achieve, and conquer together!
+      </p>
+      <div class="footer-socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">Business</a>
+      <a href="#">Franchise</a>
+      <a href="#">Partnership</a>
+      <a href="#">Network</a>
+    </div>
+    <div class="footer-col">
+      <h4>About Us</h4>
+      <a href="#">Blogs</a>
+      <a href="#">Security</a>
+      <a href="#">Careers</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="#">Contact Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">BMI Calculator</a>
+    </div>
+    <div class="footer-bar">
+      Copyright © 2024 Fitness Club. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
